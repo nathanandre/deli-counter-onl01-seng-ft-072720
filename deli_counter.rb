@@ -15,6 +15,7 @@ end
 
 def take_a_number(katz_deli, customer)
   binding.pry 
+  katz_deli.push(customer)
   # counter += 1
   puts "Welcome, #{customer}. You are number #{line_position} in line."
 end
