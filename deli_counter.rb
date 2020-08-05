@@ -18,3 +18,4 @@ def take_a_number(katz_deli, customer)
   # counter += 1
   puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
 end
+
