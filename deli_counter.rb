@@ -1,4 +1,4 @@
-katz_deli = []
+require "pry"
 def line(array)
   line_position = []
   if array.empty?
@@ -14,6 +14,7 @@ def line(array)
 end
 
 def take_a_number(katz_deli, customer)
-  counter += 1
+  binding.pry 
+  # counter += 1
   puts "Welcome, #{customer}. You are number #{line_position} in line."
 end
