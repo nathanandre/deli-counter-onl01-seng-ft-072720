@@ -13,6 +13,6 @@ def line(array)
   end
 end
 
-def take_a_number(katz_deli, |customer|)
+def take_a_number(katz_deli, customer)
   counter += 1
   puts "Welcome, #{customer}. You are number #{line_position} in line."
