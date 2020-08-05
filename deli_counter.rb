@@ -14,7 +14,6 @@ def line(array)
 end
 
 def take_a_number(katz_deli, customer)
-  binding.pry 
   katz_deli.push(customer)
   # counter += 1
   puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."
